@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	height: 100%;
+    background-image: url("/home/cgi/Desktop/Html/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+}
+
+.navbar img{
+	margin-top: 20px;
+	margin-left: 30px;
+	float:left;
+}
+
+.list ul{
+	margin-right: 30px;
+}
+
+.list li{
+	justify-content: space-around;
+	display: flex;
+	float: right;
+}
+
+.portfolio{
+	position: relative;
+	top: 100px;
+	display: inline;
+	height: 100px;
+	width: 100%;
+}
+
+.f2{
+	float: right;
+	margin: 30px;
+}
+
+.f1{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.hero{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	width: 100%;
+
+}
+
+
+.hero img{
+	width: 250px;
+}
+
+@media all and (max-width: 700px)
+{
+	.hero div{flex-direction: column;}
+	
+}
